@@ -4,16 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node bin/server.js --harmony-async-await",
+    "dev": "nodemon bin/dev.js",
     "start": "node bin/server.js --env=production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.0.0-alpha.7"
+    "bluebird": "^3.4.7",
+    "bytes": "^2.4.0",
+    "co": "^4.6.0",
+    "co-body": "^4.2.0",
+    "koa": "^2.0.0-alpha.7",
+    "koa-bodyparser": "^3.2.0",
+    "koa-compose": "^3.2.1",
+    "koa-compress": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^7.1.0",
+    "node-zookeeper-dubbo": "^2.1.7",
+    "request": "^2.79.0"
   },
   "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
     "nodemon": "^1.11.0"
   }
 }
