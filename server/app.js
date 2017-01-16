@@ -6,6 +6,7 @@ const app = new koa();
 app.use(middleware);
 
 app.use(async function(ctx) {
+  console.log(ctx.url);
   ctx.body = 'test';
 })
 
