@@ -1,0 +1,19 @@
+{
+  "name": "carp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node bin/server.js --harmony-async-await",
+    "start": "node bin/server.js --env=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
